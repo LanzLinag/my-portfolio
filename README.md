@@ -29,6 +29,6 @@ Ways to reach me: **Email** and **LinkedIn**
 
 This portfolio is deployed with **Vercel** for seamless hosting and updates.  
 
-🔗 **Live Site:** [Portfolio Link](https://your-vercel-link.vercel.app)  
+🔗 **Live Site:** [Portfolio Link](https://lanzlinag.vercel.app)  
 
 ---
