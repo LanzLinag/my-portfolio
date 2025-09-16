@@ -1,103 +1,208 @@
-import Image from "next/image";
+import {
+  FaPython,
+  FaReact,
+  FaGithub,
+  FaGitAlt,
+  FaCode,
+  FaUsers,
+  FaComments,
+  FaLightbulb,
+  FaBrain,
+  FaChartBar,
+} from "react-icons/fa";
+import {
+  SiDjango,
+  SiPandas,
+  SiNumpy,
+  SiAnaconda,
+  SiRedux,
+  SiHtml5,
+  SiCss3,
+} from "react-icons/si";
+import { MdLeaderboard } from "react-icons/md";
+import { SiTailwindcss } from "react-icons/si";
 
+// app/page.js (Next.js 13+ with app directory)
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <main className="bg-gray-900 text-white min-h-screen font-sans">
+      {/* Hero Section */}
+      <section className="flex flex-col items-center justify-center text-center py-20">
+        <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight">
+          👋 Hi, I'm <span className="text-blue-400">Lanz Elijah Linag</span>
+        </h1>
+        <p className="text-lg md:text-xl mt-6 text-gray-300 max-w-2xl">
+          Aspiring <span className="text-blue-300">Data Analyst</span> &{" "}
+          <span className="text-blue-300">Data Scientist</span> | AI/ML
+          Enthusiast | Backend Developer
+        </p>
+      </section>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
+      {/* About Me */}
+      <section className="max-w-3xl mx-auto px-6 py-12">
+        <h2 className="text-3xl font-semibold mb-4 text-blue-400">🚀 About Me</h2>
+        <p className="text-lg leading-relaxed text-gray-300">
+          I’m an undergraduate Computer Engineering student passionate about
+          building data-driven solutions that combine backend development with
+          modern AI/ML approaches. My projects explore computer vision, data
+          analytics, and full-stack applications aimed at solving real-world
+          problems.
+        </p>
+      </section>
+
+      {/* Technical Skills */}
+      <section className="bg-gray-800 py-12 px-6">
+        <h2 className="text-3xl font-semibold mb-8 text-center text-blue-400">
+          🛠 Technical Skills
+        </h2>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-6 text-center text-lg">
+          {/* Web Development */}
+          <div className="flex flex-col items-center">
+            <SiHtml5 className="text-4xl text-orange-500 mb-2" /> HTML
+          </div>
+          <div className="flex flex-col items-center">
+            <SiCss3 className="text-4xl text-blue-500 mb-2" /> CSS
+          </div>
+          <div className="flex flex-col items-center">
+            <FaReact className="text-4xl text-cyan-400 mb-2" /> React.js
+          </div>
+          <div className="flex flex-col items-center">
+            <SiRedux className="text-4xl text-purple-500 mb-2" /> Redux
+          </div>
+          <div className="flex flex-col items-center">
+            <SiDjango className="text-4xl text-green-600 mb-2" /> Django
+          </div>
+          <div className="flex flex-col items-center">
+            <FaCode className="text-4xl text-gray-400 mb-2" /> REST
+          </div>
+
+          {/* Data & ML */}
+          <div className="flex flex-col items-center">
+            <FaBrain className="text-4xl text-pink-500 mb-2" /> YOLOv8
+          </div>
+          <div className="flex flex-col items-center">
+            <SiNumpy className="text-4xl text-blue-600 mb-2" /> NumPy
+          </div>
+          <div className="flex flex-col items-center">
+            <SiPandas className="text-4xl text-blue-300 mb-2" /> Pandas
+          </div>
+          <div className="flex flex-col items-center">
+            <FaChartBar className="text-4xl text-red-500 mb-2" /> Matplotlib
+          </div>
+          <div className="flex flex-col items-center">
+            <FaChartBar className="text-4xl text-indigo-400 mb-2" /> Seaborn
+          </div>
+
+          {/* Version Control */}
+          <div className="flex flex-col items-center">
+            <FaGithub className="text-4xl text-gray-300 mb-2" /> GitHub
+          </div>
+          <div className="flex flex-col items-center">
+            <FaGitAlt className="text-4xl text-orange-600 mb-2" /> Git
+          </div>
+          <div className="flex flex-col items-center">
+            <SiAnaconda className="text-4xl text-green-500 mb-2" /> Anaconda
+          </div>
+        </div>
+      </section>
+
+      {/* Soft Skills */}
+      <section className="bg-gray-900 py-12 px-6">
+        <h2 className="text-3xl font-semibold mb-8 text-center text-blue-400">
+          🌟 Soft Skills
+        </h2>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-6 text-center text-lg">
+          <div className="flex flex-col items-center">
+            <FaUsers className="text-4xl text-purple-400 mb-2" /> Adaptability
+          </div>
+          <div className="flex flex-col items-center">
+            <FaComments className="text-4xl text-pink-400 mb-2" /> Practical Thinking
+          </div>
+          <div className="flex flex-col items-center">
+            <MdLeaderboard className="text-4xl text-orange-400 mb-2" /> Analytical Skills
+          </div>
+          <div className="flex flex-col items-center">
+            <FaLightbulb className="text-4xl text-yellow-400 mb-2" /> Problem-Solving
+          </div>
+          <div className="flex flex-col items-center">
+            <FaBrain className="text-4xl text-blue-400 mb-2" /> Conflict Resolution
+          </div>
+          <div className="flex flex-col items-center">
+            <FaBrain className="text-4xl text-green-400 mb-2" /> Attention to Detail
+          </div>
+          <div className="flex flex-col items-center">
+            <FaBrain className="text-4xl text-teal-400 mb-2" /> Flexibility
+          </div>
+          <div className="flex flex-col items-center">
+            <FaBrain className="text-4xl text-gray-300 mb-2" /> Organization
+          </div>
+        </div>
+      </section>
+
+      {/* Projects */}
+      <section className="max-w-4xl mx-auto px-6 py-12">
+        <h2 className="text-3xl font-semibold mb-8 text-center text-blue-400">
+          📂 Projects
+        </h2>
+        <div className="grid gap-8 md:grid-cols-2">
           <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            href="https://github.com/Smiruu/ByteBox-Yolo"
             target="_blank"
-            rel="noopener noreferrer"
+            className="p-6 bg-gray-800 rounded-xl hover:bg-gray-700 transition flex flex-col items-start"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
+            <FaCode className="text-3xl text-blue-400 mb-4" />
+            <h3 className="font-bold text-xl">ByteBox-Yolo</h3>
+            <p className="mt-2 text-gray-300">
+              YOLOv8-based food detection system that recognizes different
+              Filipino dishes using a webcam.
+            </p>
           </a>
           <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            href="https://github.com/Smiruu/NotED"
             target="_blank"
-            rel="noopener noreferrer"
+            className="p-6 bg-gray-800 rounded-xl hover:bg-gray-700 transition flex flex-col items-start"
           >
-            Read our docs
+            <FaCode className="text-3xl text-green-400 mb-4" />
+            <h3 className="font-bold text-xl">NotED</h3>
+            <p className="mt-2 text-gray-300">
+              Study group platform with real-time communication. Includes
+              backend models for notes, to-do lists, and videos.
+            </p>
+          </a>
+          <a
+            href="https://github.com/Smiruu/Personovel-main"
+            target="_blank"
+            className="p-6 bg-gray-800 rounded-xl hover:bg-gray-700 transition flex flex-col items-start"
+          >
+            <FaCode className="text-3xl text-pink-400 mb-4" />
+            <h3 className="font-bold text-xl">Personovel</h3>
+            <p className="mt-2 text-gray-300">
+              Library web application with PayPal subscription integration.
+            </p>
           </a>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </section>
+
+      {/* Contact */}
+      <section className="bg-gray-800 py-12 text-center">
+        <h2 className="text-3xl font-semibold mb-6 text-blue-400">📫 Contact Me</h2>
+        <p className="text-lg">
+          Email:{" "}
+          <a href="mailto:lanzlinag@gmail.com" className="text-blue-400">
+            lanzlinag@gmail.com
+          </a>
+        </p>
+        <p className="text-lg mt-2">
+          LinkedIn:{" "}
+          <a
+            href="https://www.linkedin.com/in/lanz-linag"
+            target="_blank"
+            className="text-blue-400"
+          >
+            linkedin.com/in/lanz-linag
+          </a>
+        </p>
+      </section>
+    </main>
   );
 }
