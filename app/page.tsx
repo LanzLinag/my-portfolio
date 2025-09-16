@@ -182,26 +182,39 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Contact */}
-      <section className="bg-gray-800 py-12 text-center">
-        <h2 className="text-3xl font-semibold mb-6 text-blue-400">📫 Contact Me</h2>
-        <p className="text-lg">
-          Email:{" "}
-          <a href="mailto:lanzlinag@gmail.com" className="text-blue-400">
-            lanzlinag@gmail.com
-          </a>
-        </p>
-        <p className="text-lg mt-2">
-          LinkedIn:{" "}
-          <a
-            href="https://www.linkedin.com/in/lanz-linag"
-            target="_blank"
-            className="text-blue-400"
-          >
-            linkedin.com/in/lanz-linag
-          </a>
-        </p>
-      </section>
+{/* Contact */}
+<section className="bg-gray-800 py-12 text-center">
+  <h2 className="text-3xl font-semibold mb-6 text-blue-400">📫 Contact Me</h2>
+  
+  <p className="text-lg">
+    Email:{" "}
+    <a href="mailto:lanzlinag@gmail.com" className="text-blue-400">
+      lanzlinag@gmail.com
+    </a>
+  </p>
+  
+  <p className="text-lg mt-2">
+    LinkedIn:{" "}
+    <a
+      href="https://www.linkedin.com/in/lanz-linag"
+      target="_blank"
+      className="text-blue-400"
+    >
+      linkedin.com/in/lanz-linag
+    </a>
+  </p>
+
+  <p className="text-lg mt-2">
+    GitHub:{" "}
+    <a
+      href="https://github.com/LanzLinag"
+      target="_blank"
+      className="text-blue-400"
+    >
+      github.com/LanzLinag
+    </a>
+  </p>
+</section>
     </main>
   );
 }
