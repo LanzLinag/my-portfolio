@@ -1,5 +1,4 @@
 import {
-  FaPython,
   FaReact,
   FaGithub,
   FaGitAlt,
@@ -20,7 +19,6 @@ import {
   SiCss3,
 } from "react-icons/si";
 import { MdLeaderboard } from "react-icons/md";
-import { SiTailwindcss } from "react-icons/si";
 
 // app/page.js (Next.js 13+ with app directory)
 export default function Home() {
@@ -28,9 +26,10 @@ export default function Home() {
     <main className="bg-gray-900 text-white min-h-screen font-sans">
       {/* Hero Section */}
       <section className="flex flex-col items-center justify-center text-center py-20">
-        <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight">
-          👋 Hi, I'm <span className="text-blue-400">Lanz Elijah Linag</span>
-        </h1>
+       <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight">
+  👋 Hi, I&apos;m <span className="text-blue-400">Lanz Elijah Linag</span>
+</h1>
+
         <p className="text-lg md:text-xl mt-6 text-gray-300 max-w-2xl">
           Aspiring <span className="text-blue-300">Data Analyst</span> &{" "}
           <span className="text-blue-300">Data Scientist</span> | AI/ML
