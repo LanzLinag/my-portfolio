@@ -31,11 +31,13 @@ export default function Home() {
   👋 Hi, I&apos;m <span className="text-blue-400">Lanz Elijah Linag</span>
 </h1>
 
-        <p className="text-lg md:text-xl mt-6 text-gray-300 max-w-2xl">
-          Aspiring <span className="text-blue-300">Data Analyst</span> &{" "}
-          <span className="text-blue-300">Data Scientist</span> | AI/ML
-          Engineer | Software Developer
-        </p>
+       <p className="text-lg md:text-xl mt-6 text-gray-300 max-w-2xl">
+  Aspiring <span className="text-blue-300">Data Analyst</span> &{" "}
+  <span className="text-blue-300">Data Scientist</span> |{" "}
+  <span className="text-blue-300">AI/ML Engineer</span> |{" "}
+  <span className="text-blue-300">Software Developer</span>
+</p>
+
       </section>
 
        {/* About Me */}
