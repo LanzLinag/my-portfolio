@@ -17,6 +17,7 @@ import {
   SiRedux,
   SiHtml5,
   SiCss3,
+  SiGooglecolab, 
 } from "react-icons/si";
 import { MdLeaderboard } from "react-icons/md";
 
@@ -33,21 +34,22 @@ export default function Home() {
         <p className="text-lg md:text-xl mt-6 text-gray-300 max-w-2xl">
           Aspiring <span className="text-blue-300">Data Analyst</span> &{" "}
           <span className="text-blue-300">Data Scientist</span> | AI/ML
-          Enthusiast | Backend Developer
+          Enthusiast | Software Developer
         </p>
       </section>
 
-      {/* About Me */}
-      <section className="max-w-3xl mx-auto px-6 py-12">
-        <h2 className="text-3xl font-semibold mb-4 text-blue-400">🚀 About Me</h2>
-        <p className="text-lg leading-relaxed text-gray-300">
-          I’m an undergraduate Computer Engineering student passionate about
-          building data-driven solutions that combine backend development with
-          modern AI/ML approaches. My projects explore computer vision, data
-          analytics, and full-stack applications aimed at solving real-world
-          problems.
-        </p>
-      </section>
+       {/* About Me */}
+  <section className="max-w-3xl mx-auto px-6 py-12">
+    <h2 className="text-3xl font-semibold mb-4 text-blue-400">🚀 About Me</h2>
+    <p className="text-lg leading-relaxed text-gray-300">
+      I am an undergraduate Computer Engineering student passionate about applying 
+      data and AI/ML to create innovative, data-driven solutions. Alongside exploring 
+      computer vision, data analytics, and AI/ML exercises, I also have 
+      experience in backend and full-stack development, which strengthens my ability 
+      to deliver practical solutions to real-world challenges.
+    </p>
+  </section>
+
 
       {/* Technical Skills */}
       <section className="bg-gray-800 py-12 px-6">
@@ -92,7 +94,7 @@ export default function Home() {
             <FaChartBar className="text-4xl text-indigo-400 mb-2" /> Seaborn
           </div>
 
-          {/* Version Control */}
+         {/* Version Control / Tools */}
           <div className="flex flex-col items-center">
             <FaGithub className="text-4xl text-gray-300 mb-2" /> GitHub
           </div>
@@ -101,6 +103,9 @@ export default function Home() {
           </div>
           <div className="flex flex-col items-center">
             <SiAnaconda className="text-4xl text-green-500 mb-2" /> Anaconda
+          </div>
+          <div className="flex flex-col items-center">
+            <SiGooglecolab className="text-4xl text-yellow-400 mb-2" /> Google Colab
           </div>
         </div>
       </section>
