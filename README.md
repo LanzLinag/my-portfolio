@@ -1,7 +1,7 @@
 # 🌐 Lanz Elijah Linag – Portfolio  
 
 Welcome to my **personal portfolio website**!  
-Built with ⚡ **Next.js** and 🎨 **Tailwind CSS**, this site showcases my journey, skills, and projects as a Computer Engineering student with a passion for **Data, AI/ML, and Web Development**.  
+Built with ⚡ **Next.js** and 🎨 **Tailwind CSS**, this site showcases my journey, skills, and projects as a Computer Engineering student with a passion for **Data, AI/ML, and Software Development**.  
 
 ---
 
@@ -11,8 +11,8 @@ Built with ⚡ **Next.js** and 🎨 **Tailwind CSS**, this site showcases my jou
 A quick introduction about who I am and my career goals.  
 
 ### 🛠 Skills  
-- **Technical Skills** – Web Development, Data Science, AI/ML, Version Control  
-- **Soft Skills** – Adaptability, Problem-Solving, Organization, Teamwork  
+- **Technical Skills** – Web Development, Data Science, AI/ML, Tools & Platform 
+- **Soft Skills** – Adaptability, Problem-Solving, Practical Thinking, Analytical Skills
 
 ### 📂 Projects  
 Showcase of my works, including:  
