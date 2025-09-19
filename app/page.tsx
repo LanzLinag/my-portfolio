@@ -34,7 +34,7 @@ export default function Home() {
         <p className="text-lg md:text-xl mt-6 text-gray-300 max-w-2xl">
           Aspiring <span className="text-blue-300">Data Analyst</span> &{" "}
           <span className="text-blue-300">Data Scientist</span> | AI/ML
-          Enthusiast | Software Developer
+          Engineer | Software Developer
         </p>
       </section>
 
@@ -43,7 +43,7 @@ export default function Home() {
     <h2 className="text-3xl font-semibold mb-4 text-blue-400">🚀 About Me</h2>
     <p className="text-lg leading-relaxed text-gray-300">
       I am an undergraduate Computer Engineering student passionate about applying 
-      data and AI/ML to create innovative, data-driven solutions. Alongside exploring 
+      data and AI/ML to create innovative, data-driven solutions. Alongside exploring
       computer vision, data analytics, and AI/ML exercises, I also have 
       experience in backend and full-stack development, which strengthens my ability 
       to deliver practical solutions to real-world challenges.
