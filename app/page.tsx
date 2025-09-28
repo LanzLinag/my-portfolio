@@ -18,6 +18,10 @@ import {
   SiHtml5,
   SiCss3,
   SiGooglecolab, 
+  SiMysql,         // SQL
+  SiMicrosoftexcel, // Excel
+  SiTableau,       // Tableau
+  SiJupyter        // Jupyter
 } from "react-icons/si";
 import { MdLeaderboard } from "react-icons/md";
 
@@ -34,8 +38,6 @@ export default function Home() {
        <p className="text-lg md:text-xl mt-6 text-gray-300 max-w-2xl">
   Aspiring <span className="text-blue-300">Data Analyst</span> &{" "}
   <span className="text-blue-300">Data Scientist</span> |{" "}
-  <span className="text-blue-300">AI/ML Engineer</span> |{" "}
-  <span className="text-blue-300">Software Developer</span>
 </p>
 
       </section>
@@ -45,10 +47,10 @@ export default function Home() {
     <h2 className="text-3xl font-semibold mb-4 text-blue-400">🚀 About Me</h2>
     <p className="text-lg leading-relaxed text-gray-300">
       I am an undergraduate Computer Engineering student passionate about applying 
-      data and AI/ML to create innovative, data-driven solutions. Alongside exploring
-      computer vision, data analytics, and AI/ML exercises, I also have 
-      experience in backend and full-stack development, which strengthens my ability 
-      to deliver practical solutions to real-world challenges.
+      data to create innovative, data-driven solutions. Alongside exploring
+      computer vision, data analytics, I also have experience in backend and 
+      full-stack development, which strengthens my ability to deliver 
+      practical solutions to real-world challenges.
     </p>
   </section>
 
@@ -94,6 +96,18 @@ export default function Home() {
           </div>
           <div className="flex flex-col items-center">
             <FaChartBar className="text-4xl text-indigo-400 mb-2" /> Seaborn
+          </div>
+          <div className="flex flex-col items-center">
+            <SiMysql className="text-4xl text-blue-500 mb-2" /> SQL
+          </div>
+          <div className="flex flex-col items-center">
+            <SiMicrosoftexcel className="text-4xl text-green-600 mb-2" /> Excel
+          </div>
+          <div className="flex flex-col items-center">
+            <SiTableau className="text-4xl text-orange-500 mb-2" /> Tableau
+          </div>
+          <div className="flex flex-col items-center">
+            <SiJupyter className="text-4xl text-red-500 mb-2" /> Jupyter
           </div>
 
          {/* Version Control / Tools */}
