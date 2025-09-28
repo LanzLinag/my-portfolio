@@ -1,3 +1,4 @@
+import { SiTailwindcss } from "react-icons/si";
 import {
   FaReact,
   FaGithub,
@@ -8,6 +9,7 @@ import {
   FaLightbulb,
   FaBrain,
   FaChartBar,
+  FaFileExcel, // ✅ Excel icon here
 } from "react-icons/fa";
 import {
   SiDjango,
@@ -17,11 +19,10 @@ import {
   SiRedux,
   SiHtml5,
   SiCss3,
-  SiGooglecolab, 
-  SiMysql,         // SQL
-  SiMicrosoftexcel, // Excel
-  SiTableau,       // Tableau
-  SiJupyter        // Jupyter
+  SiGooglecolab,
+  SiMysql, // SQL
+  SiTableau, // Tableau
+  SiJupyter, // Jupyter
 } from "react-icons/si";
 import { MdLeaderboard } from "react-icons/md";
 
@@ -31,29 +32,27 @@ export default function Home() {
     <main className="bg-gray-900 text-white min-h-screen font-sans">
       {/* Hero Section */}
       <section className="flex flex-col items-center justify-center text-center py-20">
-       <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight">
-  👋 Hi, I&apos;m <span className="text-blue-400">Lanz Elijah Linag</span>
-</h1>
+        <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight">
+        I&apos;m <span className="text-blue-400">Lanz Elijah Linag</span>
+        </h1>
 
-       <p className="text-lg md:text-xl mt-6 text-gray-300 max-w-2xl">
-  Aspiring <span className="text-blue-300">Data Analyst</span> &{" "}
-  <span className="text-blue-300">Data Scientist</span> |{" "}
-</p>
-
+        <p className="text-lg md:text-xl mt-6 text-gray-300 max-w-2xl">
+          Aspiring <span className="text-blue-300">Data Analyst</span> &{" "}
+          <span className="text-blue-300">Data Scientist</span> {" "}
+        </p>
       </section>
 
-       {/* About Me */}
-  <section className="max-w-3xl mx-auto px-6 py-12">
-    <h2 className="text-3xl font-semibold mb-4 text-blue-400">🚀 About Me</h2>
-    <p className="text-lg leading-relaxed text-gray-300">
-      I am an undergraduate Computer Engineering student passionate about applying 
-      data to create innovative, data-driven solutions. Alongside exploring
-      computer vision, data analytics, I also have experience in backend and 
-      full-stack development, which strengthens my ability to deliver 
-      practical solutions to real-world challenges.
-    </p>
-  </section>
-
+      {/* About Me */}
+      <section className="max-w-3xl mx-auto px-6 py-12">
+        <h2 className="text-3xl font-semibold mb-4 text-blue-400">🚀 About Me</h2>
+        <p className="text-lg leading-relaxed text-gray-300">
+          I am an undergraduate Computer Engineering student passionate about
+          applying data to create innovative, data-driven solutions. Alongside
+          exploring computer vision and data analytics, I also have experience in
+          backend and full-stack development, which strengthens my ability to
+          deliver practical solutions to real-world challenges.
+        </p>
+      </section>
 
       {/* Technical Skills */}
       <section className="bg-gray-800 py-12 px-6">
@@ -101,7 +100,7 @@ export default function Home() {
             <SiMysql className="text-4xl text-blue-500 mb-2" /> SQL
           </div>
           <div className="flex flex-col items-center">
-            <SiMicrosoftexcel className="text-4xl text-green-600 mb-2" /> Excel
+            <FaFileExcel className="text-4xl text-green-600 mb-2" /> Excel
           </div>
           <div className="flex flex-col items-center">
             <SiTableau className="text-4xl text-orange-500 mb-2" /> Tableau
@@ -110,7 +109,7 @@ export default function Home() {
             <SiJupyter className="text-4xl text-red-500 mb-2" /> Jupyter
           </div>
 
-         {/* Version Control / Tools */}
+          {/* Version Control / Tools */}
           <div className="flex flex-col items-center">
             <FaGithub className="text-4xl text-gray-300 mb-2" /> GitHub
           </div>
@@ -139,7 +138,8 @@ export default function Home() {
             <FaComments className="text-4xl text-pink-400 mb-2" /> Practical Thinking
           </div>
           <div className="flex flex-col items-center">
-            <MdLeaderboard className="text-4xl text-orange-400 mb-2" /> Analytical Skills
+            <MdLeaderboard className="text-4xl text-orange-400 mb-2" /> Analytical
+            Skills
           </div>
           <div className="flex flex-col items-center">
             <FaLightbulb className="text-4xl text-yellow-400 mb-2" /> Problem-Solving
@@ -185,8 +185,8 @@ export default function Home() {
             <FaCode className="text-3xl text-green-400 mb-4" />
             <h3 className="font-bold text-xl">NotED</h3>
             <p className="mt-2 text-gray-300">
-              Study group platform with real-time communication. Includes
-              backend models for notes, to-do lists, and videos.
+              Study group platform with real-time communication. Includes backend
+              models for notes, to-do lists, and videos.
             </p>
           </a>
           <a
@@ -203,39 +203,39 @@ export default function Home() {
         </div>
       </section>
 
-{/* Contact */}
-<section className="bg-gray-800 py-12 text-center">
-  <h2 className="text-3xl font-semibold mb-6 text-blue-400">📫 Contact Me</h2>
-  
-  <p className="text-lg">
-    Email:{" "}
-    <a href="mailto:lanzlinag@gmail.com" className="text-blue-400">
-      lanzlinag@gmail.com
-    </a>
-  </p>
-  
-  <p className="text-lg mt-2">
-    LinkedIn:{" "}
-    <a
-      href="https://www.linkedin.com/in/lanz-linag"
-      target="_blank"
-      className="text-blue-400"
-    >
-      linkedin.com/in/lanz-linag
-    </a>
-  </p>
+      {/* Contact */}
+      <section className="bg-gray-800 py-12 text-center">
+        <h2 className="text-3xl font-semibold mb-6 text-blue-400">📫 Contact Me</h2>
 
-  <p className="text-lg mt-2">
-    GitHub:{" "}
-    <a
-      href="https://github.com/LanzLinag"
-      target="_blank"
-      className="text-blue-400"
-    >
-      github.com/LanzLinag
-    </a>
-  </p>
-</section>
+        <p className="text-lg">
+          Email:{" "}
+          <a href="mailto:lanzlinag@gmail.com" className="text-blue-400">
+            lanzlinag@gmail.com
+          </a>
+        </p>
+
+        <p className="text-lg mt-2">
+          LinkedIn:{" "}
+          <a
+            href="https://www.linkedin.com/in/lanz-linag"
+            target="_blank"
+            className="text-blue-400"
+          >
+            linkedin.com/in/lanz-linag
+          </a>
+        </p>
+
+        <p className="text-lg mt-2">
+          GitHub:{" "}
+          <a
+            href="https://github.com/LanzLinag"
+            target="_blank"
+            className="text-blue-400"
+          >
+            github.com/LanzLinag
+          </a>
+        </p>
+      </section>
     </main>
   );
 }
