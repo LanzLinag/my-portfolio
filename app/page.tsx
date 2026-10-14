@@ -37,9 +37,9 @@ export default function Home() {
 
         <p className="text-lg md:text-xl mt-6 text-gray-300 max-w-2xl">
           Computer Engineering Graduate |{" "}
-          <span className="text-blue-300">AI / ML Engineer</span>,{" "}
-          <span className="text-blue-300">Data Analyst</span> &{" "}
-          <span className="text-blue-300">Software Developer</span>
+          <span className="text-blue-300">Aspiring AI / ML Engineer</span>,{" "}
+          <span className="text-blue-300">Data Scientist/Analyst</span> &{" "}
+          <span className="text-blue-300">Software Engineer</span>
         </p>
       </section>
 
